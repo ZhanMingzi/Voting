@@ -24,23 +24,23 @@
 3.部署合约（本地）【这个步骤在生产环境中用管理员账号进行部署】
  `npx hardhat run ./scripts/deploy.js --network loacalhost`
 
- # 文件结构
+ # Files Structure
 
- ## 合约
+ ## Contracts
  - contracts folder：合约代码
  - scripts folder：部署合约脚本
  - test：合约测试
  - hardhat.config.js：配置文件
 
-## 前端
- - Pages
+## Front End (Next.js)
+ - Pages folder
     - index.js(首页)
     - voterList.js
     - allow-voters.js:注册新的voter
     -  candidate-registration.js:注册候选人
- - styles：全局样式文件
- - public 静态资源
- - components：放一些可复用组件
+ - styles folder：全局样式文件
+ - public folfer: 静态资源
+ - components folder：放一些可复用组件
     - NavBar
         - NavBar.jsx
         - NavBar.module.css (模块化css)
